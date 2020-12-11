@@ -35,3 +35,4 @@ class EbooksSpider(scrapy.Spider):
             url=f'https://openlibrary.org/subjects/picture_books.json?limit=12&offset={self.offset}',
             callback=self.parse
         )
+# added newline after
